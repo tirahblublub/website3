@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<head>
+  <title>My Personal Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: transparent;
+      background-image: url("wb1.jpg");
+      background-attachment: fixed;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    header {
+      background-color: #a9bd95;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .nav-button {
+      background-color: #EEA1CD;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 14px;
+      margin: 5px;
+      border-radius: 8px;
+      cursor: pointer;
+      display: inline-block;
+      transition: background-color 0.3s ease;
+      font-weight: bold;
+    }
+
+    .nav-button:hover {
+      background-color: #d98ab1;
+    }
+
+    section {
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 1000px;
+      border-radius: 5px;
+      background-color:transparent;
+    }
+
+    .section-title {
+      text-align: center;
+      color: #EEA1CD;
+      margin-bottom: 20px;
+    }
+
+    .family-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .family-member {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      background-color: #d3deba;
+      padding: 15px;
+      text-align: center;
+      width: calc(33.33% - 20px);
+    }
+
+    .family-member img {
+      width: 100%;
+      max-width: 250px;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 10px;
+      display: block;
+      margin: 0 auto 10px;
+      transition: transform 0.3s ease;
+      cursor: zoom-in;
+    }
+
+    .family-member img:hover {
+      transform: scale(1.1);
+      cursor: zoom-out;
+    }
+
+    .family-member h3 {
+      margin: 10px 0 0;
+      color: #333;
+      font-size: 16px;
+    }
+    footer {
+      text-align: center;
+      padding: 3px;
+      background-color: #a9bd95;
+    
+      bottom: 0;
+      width: 100%;
+
+    @media (max-width: 768px) {
+      .family-member {
+        width: calc(50% - 20px);
+      }
+    }
+
+    @media (max-width: 500px) {
+      .family-member {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 style="color: #fde4f2;">⋆˚࿔ welcome to athirah's world 𝜗𝜚˚⋆</h1>
+  </header>
+
+  <nav>
+    <a href="home.html" class="nav-button">HOMEPAGE</a>
+    <a href="aboutme.html" class="nav-button">ABOUT ME</a>
+    <a href="education.html" class="nav-button">EDUCATION</a>
+    <a href="family.html" class="nav-button">FAMILY</a>
+    <a href="experience.html" class="nav-button">EXPERIENCE</a>
+    <a href="favouritemusic.html" class="nav-button">FAVOURITE MUSIC</a>
+    <a href="gallery.html" class="nav-button">MY GALLERY</a>
+  </nav>
+
+  <section class="family-section">
+    <h2 class="section-title">𝓶𝔂 𝓯𝓪𝓶𝓲𝓵𝔂 𝓶𝓮𝓶𝓫𝓮𝓻𝓼</h2>
+    <div class="family-list">
+      <div class="family-member">
+        <img src="abah3.jpg" alt="Abah">
+        <h3>Mat Nawi bin Ismail</h3>
+      </div>
+      <div class="family-member">
+        <img src="mama2.jpg" alt="Mama">
+        <h3>Mahni binti Salleh</h3>
+      </div>
+      <div class="family-member">
+        <img src="along2.jpg" alt="Along">
+        <h3>Farahiyah Akmal binti Mat Nawi</h3>
+      </div>
+      <div class="family-member">
+        <img src="angah.jpg" alt="Angah">
+        <h3>Syahida Akmal binti Mat Nawi</h3>
+      </div>
+      <div class="family-member">
+        <img src="azirah.jpg" alt="Athirah">
+        <h3>Azirah Akmal binti Mat Nawi</h3>
+      </div>
+      <div class="family-member">
+        <img src="ajrina1.jpg" alt="Ajrina">
+        <h3>Ajrina Akmal binti Mat Nawi</h3>
+      </div>
+      <div class="family-member">
+        <img src="acik2.jpg" alt="Acik">
+        <h3>Azhani Akmal binti Mat Nawi</h3>
+      </div>
+      <div class="family-member">
+        <img src="nazri2.jpg" alt="Nazri">
+        <h3>Muhammad Nazri bin Mat Nawi</h3>
+      </div>
+      <div class="family-member">
+        <img src="abang1.jpg" alt="Abang">
+        <h3>Muhammad Fathi Ubaidi bin Jamaludin</h3>
+      </div>
+      <div class="family-member">
+        <img src="atiqah.jpg" alt="Atiqah">
+        <h3>Nur Atiqah Fadhlin binti Mat Nawi</h3>
+      </div>
+      <div class="family-member">
+        <img src="athirah3.jpg" alt="Athirah">
+        <h3>Nur Athirah Fadhlin binti Mat Nawi</h3>
+      </div>
+      <div class="family-member">
+        <img src="alya3.jpg" alt="Alya">
+        <h3>Nur Alya Fadhlin binti Mat Nawi</h3>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p style="color:#fde4f2;">All Rights Reserved by Nur Athirah Fadhlin &copy;2025</p>
+  </footer>
+</body>
+</html>
